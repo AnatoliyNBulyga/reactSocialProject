@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+}
+.item a {
+  display: block;
+  padding: 5px 10px;
+  color: #000;
+  text-decoration: none;
+}
+.item a:hover {
+  background-color: rgba(0,0,0,.08);
+  color: #e53935;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.item a.active {
+  color: #b71c1c;
+}

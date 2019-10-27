@@ -1,0 +1,31 @@
+.description img {
+  display: inline-block;
+  width: 80px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.description_body {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .description_body {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .description {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  .description_body {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .description {
+    grid-template-columns: 1fr;
+  }
+}

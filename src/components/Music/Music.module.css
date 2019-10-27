@@ -1,0 +1,17 @@
+.nav {
+  grid-area: n;
+}
+.item a {
+  display: block;
+  padding: 3px 5px;
+  color: #000;
+}
+.item a:hover {
+  background-color: rgba(0,0,0,.08);
+  color: red;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.item.active a {
+  color: red;
+}
