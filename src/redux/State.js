@@ -1,4 +1,6 @@
-import {renderEntireTree} from "../render";
+let renderEntireTree = () => {
+    console.log('State changed');
+}
 
 let state = {
     sidebar: {
@@ -13,7 +15,7 @@ let state = {
             {id:1, text:'Hi! How are you?', likesCount:'+' + 11},
             {id:2, text:'Hey there!', likesCount: '+' + 10}
         ],
-        newPostText: 'Anatoliy'
+        newPostText: ''
     },
     dialogsPage: {
         messages: [
@@ -21,6 +23,7 @@ let state = {
             {id:2, text:'Hey there!'},
             {id:3, text:'Yo, bro!'},
         ],
+        newMessage: '',
         dialogs: [
             {id:1, name: 'Anatoliy', avatar:"https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png"},
             {id:2, name: 'Evgenia', avatar: "https://www.pnglot.com/pngfile/detail/88-882201_woman-computer-icons-avatar-female-character-clipart-face.png"},
@@ -33,7 +36,7 @@ let state = {
 
 }
 
- export let addPost = () => {
+ export const addPost = () => {
     let newPost = {
         id: 3,
         text: state.profilePage.newPostText,
@@ -43,9 +46,25 @@ let state = {
     state.profilePage.newPostText = '';
     renderEntireTree(state);
 }
-export let updatePostText = (newText) => {
+export const updatePostText = (newText) => {
     state.profilePage.newPostText = newText;
     renderEntireTree(state);
+}
+export const addMessage = () => {
+    let newMessage = {
+        id: 4,
+        text: state.dialogsPage.newMessage
+    };
+    state.dialogsPage.messages.push(newMessage);
+    state.dialogsPage.newMessage = '';
+    renderEntireTree(state);
+}
+export const updateMessage = (newMessage) => {
+    state.dialogsPage.newMessage = newMessage;
+    renderEntireTree(state);
+}
+export const subscribe = (observer) => {
+     renderEntireTree = observer; // observer
 }
 
 export default state;
