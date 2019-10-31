@@ -3,16 +3,16 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = (props) => {
-    let posts = props.store.getState().profilePage.posts;
+    let posts = props.posts;
     let postsElements = posts.map(p => <Post message={p.text} like_count={p.likesCount}/>);
     
     let newPostElement = React.createRef();
     let addPost = () => {
-        props.store.addPost();
+        props.addPost();
     };
     let onPostChange = () => {
         let text = newPostElement.current.value;
-        props.store.updatePostText(text);
+        props.updatePostText(text);
     };
     
    return (

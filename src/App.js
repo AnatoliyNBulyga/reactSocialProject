@@ -8,6 +8,7 @@ import Profile from './components/Profile/Profile';
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
+import MyPosts from "./components/Profile/MyPosts/MyPosts";
 
 const App = (props) => {
 
@@ -15,18 +16,24 @@ const App = (props) => {
 
         <div className="app-wrapper">
             <Header/>
-            <Navbar state={props.store.getState().sidebar}/>
+            <Navbar state={props.state}/>
 
             <div className="app-wrapper-content">
                 {/*<Route path='/profile' component={Profile}/>*/}
 
                 <Route path='/profile'
                        render={ () => <Profile
-                           store={props.store}/>
+                           profilePage={props.state.profilePage}
+                           addPost={props.addPost}
+                           updatePostText={props.updatePostText}
+                           newPostText={props.state.newPostText}/>
                        } />
                 <Route path='/dialogs'
                        render={ () => <Dialogs
-                           store={props.store}/>
+                           dialogsPage={props.state.dialogsPage}
+                           addPost={props.addPost}
+                           addMessage={props.addMessage}
+                           updateMessage={props.updateMessage}/>
                        } />
                 <Route path='/news' render={ () => <News/>}/>
                 <Route path='/music' render={ () => <Music/>}/>
