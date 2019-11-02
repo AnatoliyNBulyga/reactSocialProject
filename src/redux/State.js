@@ -39,38 +39,41 @@ let store = {
     getState() {
         return this._state;
     },
+    dispatch (action) {
 
-    addPost() {
-        let newPost = {
-            id: 3,
-            text: this._state.profilePage.newPostText,
-            likesCount: '+' + 5
-        };
-        this._state.profilePage.posts.push(newPost);
-        this._state.profilePage.newPostText = '';
-        this._subscriber();
+        if (action.type === 'ADD-POST') {
+            
+            let newPost = {
+                id: 3,
+                text: this._state.profilePage.newPostText,
+                likesCount: '+' + 5
+            };
+            this._state.profilePage.posts.push(newPost);
+            this._state.profilePage.newPostText = '';
+            this._subscriber();
+
+        } else if (action.type === 'UPDATE-POST-TEXT') {
+
+            this._state.profilePage.newPostText = action.newText;
+            this._subscriber();
+
+        } else if (action.type === 'ADD-MESSAGE') {
+
+            let newMessage = {
+                id: 4,
+                text: this._state.dialogsPage.newMessage
+            };
+            this._state.dialogsPage.messages.push(newMessage);
+            this._state.dialogsPage.newMessage = '';
+            this._subscriber();
+
+        } else if (action.type === 'UPDATE-MESSAGE') {
+
+            this._state.dialogsPage.newMessage = action.newMessage;
+            this._subscriber();
+        }
     },
 
-    updatePostText(newText) {
-        this._state.profilePage.newPostText = newText;
-        this._subscriber();
-    },
-
-    addMessage() {
-        let newMessage = {
-            id: 4,
-            text: this._state.dialogsPage.newMessage
-        };
-        this._state.dialogsPage.messages.push(newMessage);
-        this._state.dialogsPage.newMessage = '';
-        this._subscriber();
-    },
-
-    updateMessage(newMessage) {
-        this._state.dialogsPage.newMessage = newMessage;
-        this._subscriber();
-    },
-    
     subscribe(observer) {
         this._subscriber = observer; // observer
     }

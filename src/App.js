@@ -23,17 +23,13 @@ const App = (props) => {
 
                 <Route path='/profile'
                        render={ () => <Profile
-                           profilePage={props.state.profilePage}
-                           addPost={props.addPost}
-                           updatePostText={props.updatePostText}
-                           newPostText={props.state.newPostText}/>
+                           dispatch={props.dispatch}
+                           profilePage={props.state.profilePage}/>
                        } />
                 <Route path='/dialogs'
                        render={ () => <Dialogs
                            dialogsPage={props.state.dialogsPage}
-                           addPost={props.addPost}
-                           addMessage={props.addMessage}
-                           updateMessage={props.updateMessage}/>
+                           dispatch={props.dispatch}/>
                        } />
                 <Route path='/news' render={ () => <News/>}/>
                 <Route path='/music' render={ () => <Music/>}/>
