@@ -7,12 +7,12 @@ const MyPosts = (props) => {
     let posts = props.posts;
     let postsElements = posts.map(p => <Post message={p.text} like_count={p.likesCount}/>);
 
-    let addPost = () => {
-        props.dispatch(addPostActionCreator());
+    let onAddPost = () => {
+        props.addPost();
     };
     let onPostChange = (e) => {
         let text = e.target.value;
-        props.dispatch(updatePostTextActionCreator(text));
+        props.updatePostText(text);
     };
     
    return (
@@ -21,7 +21,7 @@ const MyPosts = (props) => {
           <div className={s.postEditor}>
             <textarea onChange={onPostChange}
                         value={props.newPostText}></textarea>
-              <button onClick={addPost}>Add post</button>
+              <button onClick={onAddPost}>Add post</button>
           </div>
          <div className={s.posts}>
              { postsElements }
