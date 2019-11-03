@@ -1,4 +1,4 @@
-import store from "./redux/State";
+import store from "./redux/redux-store";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -15,7 +15,10 @@ let renderEntireTree = () => {
         </BrowserRouter>, document.getElementById('root'));
 }
 renderEntireTree();
-store.subscribe(renderEntireTree);
+store.subscribe(() => {
+    let state = store.getState();
+    renderEntireTree(state);
+});
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
