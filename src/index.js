@@ -11,9 +11,6 @@ let renderEntireTree = () => {
         <BrowserRouter>
             <App state={store.getState()}
                  dispatch={store.dispatch.bind(store)}
-                 // updatePostText={store.updatePostText.bind(store)}
-                 // addMessage={store.addMessage.bind(store)}
-                 // updateMessage={store.updateMessage.bind(store)}
             />
         </BrowserRouter>, document.getElementById('root'));
 }
