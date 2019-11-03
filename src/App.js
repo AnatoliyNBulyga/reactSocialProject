@@ -20,7 +20,6 @@ const App = (props) => {
 
             <div className="app-wrapper-content">
                 {/*<Route path='/profile' component={Profile}/>*/}
-
                 <Route path='/profile'
                        render={ () => <Profile
                            dispatch={props.dispatch}

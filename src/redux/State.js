@@ -1,7 +1,6 @@
-const ADD_POST = 'ADD-POST';
-const UPDATE_POST_TEXT = 'UPDATE-POST-TEXT';
-const ADD_MESSAGE = 'ADD-MESSAGE';
-const UPDATE_MESSAGE = 'UPDATE-MESSAGE';
+import dialogReducer from "./dialogReducer";
+import profileReducer from "./profileReducer";
+import sidebarReducer from "./sidebarReducer";
 
 let store = {
     _state: {
@@ -25,7 +24,7 @@ let store = {
                 {id:2, text:'Hey there!'},
                 {id:3, text:'Yo, bro!'},
             ],
-            newMessage: '',
+            newMessageText: '',
             dialogs: [
                 {id:1, name: 'Anatoliy', avatar:"https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png"},
                 {id:2, name: 'Evgenia', avatar: "https://www.pnglot.com/pngfile/detail/88-882201_woman-computer-icons-avatar-female-character-clipart-face.png"},
@@ -40,43 +39,17 @@ let store = {
     _subscriber() {
         console.log('no subscribers (observer)');
     },
-    
+
     getState() {
         return this._state;
     },
     dispatch (action) {
 
-        if (action.type === ADD_POST) {
-            
-            let newPost = {
-                id: 3,
-                text: this._state.profilePage.newPostText,
-                likesCount: '+' + 5
-            };
-            this._state.profilePage.posts.push(newPost);
-            this._state.profilePage.newPostText = '';
-            this._subscriber();
-
-        } else if (action.type === UPDATE_POST_TEXT) {
-
-            this._state.profilePage.newPostText = action.newText;
-            this._subscriber();
-
-        } else if (action.type === ADD_MESSAGE) {
-
-            let newMessage = {
-                id: 4,
-                text: this._state.dialogsPage.newMessage
-            };
-            this._state.dialogsPage.messages.push(newMessage);
-            this._state.dialogsPage.newMessage = '';
-            this._subscriber();
-
-        } else if (action.type === UPDATE_MESSAGE) {
-
-            this._state.dialogsPage.newMessage = action.newMessage;
-            this._subscriber();
-        }
+        this._state.sidebar = sidebarReducer(this._state.sidebar, action);
+        this._state.profilePage = profileReducer(this._state.profilePage, action);
+        this._state.dialogsPage = dialogReducer(this._state.dialogsPage, action);
+        this._subscriber();
+        
     },
 
     subscribe(observer) {
@@ -84,15 +57,6 @@ let store = {
     }
 };
 
-export const addPostActionCreator = () => ({type: ADD_POST});
-
-export const addMessageActionCreator = () => ({ type:ADD_MESSAGE });
-
-export const updatePostTextActionCreator = text =>
-    ({type: UPDATE_POST_TEXT,newText: text});
-
-export const newMessageActionCreator = (text) =>
-    ({type: UPDATE_MESSAGE, newMessage: text});
 
 export default store;
 window.store = store;
