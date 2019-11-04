@@ -3,7 +3,7 @@ import s from './Friends.module.css';
 import FriendBlock from "./FriendBlock/FriendBlock";
 
 const Friends = (props) => {
-    let friends = props.friendsProps;
+    let friends = props.friends;
     let friendsBlocks = friends.map( prop => <FriendBlock avatar={prop.avatar} name={prop.name}/> );
     return (
         <div className={s.friends_wrap}>
