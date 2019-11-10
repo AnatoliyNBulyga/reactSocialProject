@@ -4,7 +4,7 @@ import FriendBlock from "./FriendBlock/FriendBlock";
 
 const Friends = (props) => {
     let friends = props.friends;
-    let friendsBlocks = friends.map( prop => <FriendBlock avatar={prop.avatar} name={prop.name}/> );
+    let friendsBlocks = friends.map( prop => <FriendBlock avatar={prop.avatar} key={prop.id} name={prop.name}/> );
     return (
         <div className={s.friends_wrap}>
             <h2 className={s.friend_head}>Friends</h2>
