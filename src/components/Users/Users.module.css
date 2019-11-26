@@ -28,7 +28,7 @@
 .pageNubmer:hover {
     font-weight: bold;
 }
-.pageNubmer {
+.pageNumber {
     display: inline-block;
     padding: 0 3px;
     cursor: pointer;
