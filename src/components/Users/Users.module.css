@@ -24,3 +24,12 @@
     outline: none;
     cursor: pointer;
 }
+.selected,
+.pageNubmer:hover {
+    font-weight: bold;
+}
+.pageNubmer {
+    display: inline-block;
+    padding: 0 3px;
+    cursor: pointer;
+}
