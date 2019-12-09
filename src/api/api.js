@@ -16,13 +16,13 @@ export const userAPI = {
             });
 
     },
-    getFollow(userId)  {
+    follow(userId)  {
         return instanse.post(`follow/${userId}`)
             .then(response => {
                 return response.data;
             });
     },
-    getUnFollow(userId)  {
+    unFollow(userId)  {
         return instanse.delete(`follow/${userId}`)
             .then(response => {
                 return response.data;
