@@ -27,6 +27,16 @@ export const userAPI = {
             .then(response => {
                 return response.data;
             });
+    },
+    getProfile(userId) {
+        return instanse.get(`profile/${userId}`);
+    }
+
+}
+
+export const authAPI = {
+    getMe() {
+        return instanse.get(`auth/me`);
     }
 }
 

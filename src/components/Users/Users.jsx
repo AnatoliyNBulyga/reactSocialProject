@@ -33,13 +33,12 @@ let Users = (props) => {
                         <div>
                             {u.followed
                                 ? <button disabled={props.followingInProgress.some( id => id === u.id)}
-
                                           onClick={() => {props.unFollow(u.id)} }
                                           className={s.button}>Unfollow</button>
+                                
                                 : <button disabled={props.followingInProgress.some( id => id === u.id)}
                                           onClick={() => {props.follow(u.id)} }
                                           className={s.button}>Follow</button>}
-
                         </div>
                     </div>
                     <div className={s.content_block}>
