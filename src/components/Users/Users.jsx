@@ -1,8 +1,7 @@
 import React from 'react';
 import s from './Users.module.css';
 import UserPhoto from '../../assets/img/user1.png'
-import {NavLink} from "react-router-dom";
-import {follow, unFollow} from "../../redux/UsersReducer";
+import {NavLink, Redirect} from "react-router-dom";
 
 let Users = (props) => {
 
