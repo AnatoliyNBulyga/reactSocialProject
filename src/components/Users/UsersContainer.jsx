@@ -8,6 +8,7 @@ import {
 import Users from './Users';
 import Preloader from '../common/Preloader/Preloader';
 import {Redirect} from "react-router-dom";
+import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
 class UsersContainer extends React.Component {
      componentDidMount() {
@@ -42,7 +43,6 @@ const mapStateToProps = (state) => {
         currentPage: state.usersPage.currentPage,
         isFetching: state.usersPage.isFetching,
         followingInProgress: state.usersPage.followingInProgress,
-        isAuth: state.auth.isAuth
    }
 };
 const mapDispatchToProps = {
@@ -53,4 +53,5 @@ const mapDispatchToProps = {
      getUsers
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(UsersContainer);
+
+export default withAuthRedirect(connect(mapStateToProps, mapDispatchToProps)(UsersContainer));
