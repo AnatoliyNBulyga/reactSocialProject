@@ -22,3 +22,7 @@
     outline: none;
     cursor: pointer;
 }
+.add_message textarea {
+    resize: none;
+    border-radius: 3px;
+}
