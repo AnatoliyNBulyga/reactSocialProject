@@ -19,7 +19,7 @@ class UsersContainer extends React.Component {
           this.props.getUsers(pageNumber, this.props.pageSize);
      }
      render() {
-          if (!this.props.isAuth) return <Redirect to={"/login"} />
+          // if (!this.props.isAuth) return <Redirect to={"/login"} />
            return <>
                {this.props.isFetching ? <Preloader/> : null}
                <Users
@@ -56,5 +56,5 @@ const mapDispatchToProps = {
 
 export default compose(
     connect(mapStateToProps, mapDispatchToProps),
-    withAuthRedirect
+    // withAuthRedirect
 )(UsersContainer);
