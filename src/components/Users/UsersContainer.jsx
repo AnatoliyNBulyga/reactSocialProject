@@ -41,7 +41,7 @@ class UsersContainer extends React.Component {
      }
 }
 
-const mapStateToProps = (state) => {
+/*const mapStateToProps = (state) => {
    return {
         users: state.usersPage.users,
         pageSize: state.usersPage.pageSize,
@@ -50,8 +50,8 @@ const mapStateToProps = (state) => {
         isFetching: state.usersPage.isFetching,
         followingInProgress: state.usersPage.followingInProgress,
    }
-};
-/*const mapStateToProps = (state) => {
+};*/
+const mapStateToProps = (state) => {
      return {
           users: getUsers(state),
           pageSize: getPageSize(state),
@@ -60,7 +60,7 @@ const mapStateToProps = (state) => {
           isFetching: getIsFetching(state),
           followingInProgress: getFollowingInProgress(state),
      }
-};*/
+};
 
 
 const mapDispatchToProps = {
