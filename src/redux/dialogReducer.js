@@ -1,5 +1,4 @@
 const ADD_MESSAGE = 'ADD-MESSAGE';
-const UPDATE_MESSAGE = 'UPDATE-MESSAGE';
 
 const initialState = {
     messages: [
@@ -7,7 +6,6 @@ const initialState = {
         {id:2, text:'Hey there!'},
         {id:3, text:'Yo, bro!'},
     ],
-    newMessageText: '',
     dialogs: [
         {id:1, name: 'Anatoliy', avatar:"https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png"},
         {id:2, name: 'Evgenia', avatar: "https://www.pnglot.com/pngfile/detail/88-882201_woman-computer-icons-avatar-female-character-clipart-face.png"},
@@ -22,24 +20,17 @@ const dialogReducer = (state = initialState, action) => {
     switch (action.type) {
 
         case ADD_MESSAGE :
+            let body = action.newMessageBody;
             return {
                 ...state,
-                newMessageText: '',
-                messages: [ ...state.messages, {id: 4,text: state.newMessageText}]
+                messages: [ ...state.messages, {id: state.messages.length + 1, text: body}]
             };
-
-        case UPDATE_MESSAGE :
-            return {
-                ...state,
-                newMessageText: action.newMessageText
-            };
+            
         default:
             return state;
     }
 };
 
-export const addMessageActionCreator = () => ({ type:ADD_MESSAGE });
-export const updateMessageActionCreator = (text) =>
-    ({type: UPDATE_MESSAGE, newMessageText: text});
+export const addMessageActionCreator = (newMessageBody) => ({ type:ADD_MESSAGE, newMessageBody: newMessageBody });
 
 export default dialogReducer;

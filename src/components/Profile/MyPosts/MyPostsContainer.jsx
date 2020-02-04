@@ -1,6 +1,8 @@
-import {addPostActionCreator, updatePostTextActionCreator} from "../../../redux/profileReducer";
+import {addPostActionCreator} from "../../../redux/profileReducer";
 import MyPosts from "./MyPosts";
 import {connect} from "react-redux";
+import {compose} from "redux";
+import {withAuthRedirect} from "../../../hoc/withAuthRedirect";
 
 const mapStateToProps = (state) => {
      return {
@@ -10,16 +12,10 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
       return {
-              updatePostText: (text) => {
-                      let action =  updatePostTextActionCreator(text);
-                      dispatch(action);
-              },
-              addPost: () => {
-                      dispatch(addPostActionCreator());
+              addPost: (addComment) => {
+                      dispatch(addPostActionCreator(addComment));
               }
       }
 }
 
-const SuperMyPostsContainer = connect(mapStateToProps, mapDispatchToProps)(MyPosts);
-
-export default SuperMyPostsContainer;
+export default compose( connect(mapStateToProps, mapDispatchToProps))(MyPosts);

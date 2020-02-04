@@ -1,0 +1,578 @@
+[33mcommit b96a83852fcee6363b597145015965007c1fa90f[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m)[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Jan 11 12:39:54 2020 +0200
+
+    lesson 90 refactoring
+
+[33mcommit a5e3769f448a2d2259fb81bfb68816332a887ce5[m[33m ([m[1;31morigin/TEST[m[33m, [m[1;32mTEST[m[33m)[m
+Merge: 06ea733 947473c
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 9 21:53:25 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 947473c91816fb43a8d6ad3fbc6e0ac0ff96ed95[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 9 21:52:59 2020 +0200
+
+    lesson 89 tdd tests
+
+[33mcommit 06ea7336607c015259495ab4aa36ebd8e28106d5[m
+Merge: 99257ac 42ae79c
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 20:13:14 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 42ae79c4a6496d4c7edeb20f201f275718c979a4[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 20:12:54 2020 +0200
+
+    lesson 85 useEffect
+
+[33mcommit 99257aca72a757d5ff81ad522ce3627fd60b4e0b[m
+Merge: 0cbfee9 80b992e
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 19:49:21 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 80b992ecc971debe64503d3a74c8f2b19ba059a7[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 19:49:02 2020 +0200
+
+    lesson 84 useState
+
+[33mcommit 0cbfee9c27956c7dc042a22a8f7e048b057a335e[m
+Merge: 1e7e0b0 66d3f70
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 17:24:41 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 66d3f705861a18cea17e7dd0be05442958986c25[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 17:24:22 2020 +0200
+
+    lesson 83 reselect
+
+[33mcommit 1e7e0b03bff1ce7af5e6afba514c1da4c51d981b[m
+Merge: 595f9cb 23a1d3d
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 15:23:49 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 23a1d3d617348d16930710d92047dd97c92b14eb[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 15:23:30 2020 +0200
+
+    lesson 81 select
+
+[33mcommit 595f9cb8246859c8e6e8417fd8e0ae8b804163d6[m
+Merge: 78e653a 088c607
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 13:23:03 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 088c607008d11571e6818e45dbd89deb54d6590e[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 13:22:46 2020 +0200
+
+    lesson 80 initialize
+
+[33mcommit 78e653a4f418baf154b541192f1f5c2c4324835b[m
+Merge: 01efe79 b7e81a7
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 11:24:41 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit b7e81a7f8141130a9399958979884d3396a2a0d0[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Jan 7 11:24:24 2020 +0200
+
+    lesson 79 stopSubmit() redux form
+
+[33mcommit 01efe792371a9af7eb07a53d30d5408e69a2ec20[m
+Merge: 3632342 a734e4c
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Jan 5 19:14:28 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit a734e4c30d29fed8d9c3766c319ce75a11d6cf52[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Jan 5 19:14:12 2020 +0200
+
+    lesson 78 login and logout
+
+[33mcommit 363234266fafd488c1eded6be7720c6ca5cdc1cd[m
+Merge: c6adb62 1e142f4
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Jan 4 16:49:25 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 1e142f4e53a0d4284cb49a669d0e172b2444b689[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Jan 4 16:48:58 2020 +0200
+
+    lesson 77 form validate
+
+[33mcommit c6adb624352fe9ae9103b6ebb0bf5e0dab45ce5b[m
+Merge: 7dc773b b44017e
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 20:37:55 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit b44017e3784e8bb11ca8699cae4fd08ad7068fa6[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 20:37:29 2020 +0200
+
+    lesson 76 redux-form continue
+
+[33mcommit 7dc773b9bdd80644865335478657f65cc1774bc8[m
+Merge: 8b92d20 cca3035
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 15:36:11 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit cca3035bb82275b6951f156596ad66903a0ef295[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 15:35:54 2020 +0200
+
+    lesson 75 redux-form
+
+[33mcommit 8b92d206818e11d42d14d87f3634574442f8bea7[m
+Merge: 53e34bf a5ab3d3
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 13:16:49 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit a5ab3d3af21c6b21413a7813b3b51c28d8c0f774[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 13:16:32 2020 +0200
+
+    lesson 74 componentDidUpdate
+
+[33mcommit 53e34bf8ef1a37e9f281846ea49203199a64f226[m
+Merge: 5665340 b775d96
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 11:53:31 2020 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit b775d96a1038ad6729d2210b82f9a8ea9ca46cf6[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Jan 2 11:53:15 2020 +0200
+
+    lesson 73 change  status
+
+[33mcommit 5665340c233bac99db467662e4e4ed4ab60b88a7[m
+Merge: 0d1bca5 01d75e2
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Dec 28 17:27:13 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 01d75e2ec0355803e7da6db088c66eb0ef164d4c[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Dec 28 17:26:45 2019 +0200
+
+    lesson 71 setState
+
+[33mcommit 0d1bca56faa3087f4c2625a3b1f909b494850922[m
+Merge: 61a9de2 2280a7a
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 25 20:59:27 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 2280a7adfb051ab9c53cc6ce18fb4b034fbd04d9[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 25 20:59:06 2019 +0200
+
+    lesson 70 compose()
+
+[33mcommit 61a9de2f583dfb84889578d9871a8f589e68af9b[m
+Merge: d2fd352 5944906
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 25 20:41:49 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 59449068c0f2f330d829aa6c5ee2798bf0fa1261[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 25 20:41:00 2019 +0200
+
+    lesson 69 hoc
+
+[33mcommit d2fd352af59a06aada8ecfc12b302b6e761ff79a[m
+Merge: 9ee3e7e 063c232
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Dec 22 19:52:28 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 063c2323f9c02165b3ba97304a2b7a7953f6e193[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Dec 22 19:52:07 2019 +0200
+
+    lesson 67 Redirect
+
+[33mcommit 9ee3e7e2ac27623790c52c2387c34fcf8b0e6b1b[m
+Merge: 9526fbd 1162f8e
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 16 13:41:08 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 1162f8e6641bfee69f8d67a42e366d3b1936b7a4[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 16 13:40:49 2019 +0200
+
+    lesson 67 add thunk to another reducers
+
+[33mcommit 9526fbd455b1b187fd024e969acee2053d8b7f57[m
+Merge: 5315585 a3c5577
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 9 21:26:28 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit a3c5577811e2e544364c11cfa12b82ada4d3bfe3[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 9 21:26:10 2019 +0200
+
+    lesson 66 redux-thunk
+
+[33mcommit 53155857bc9c899248baaca29706e44bfd01f8dc[m
+Merge: 52a94d9 aa969f8
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Dec 7 19:51:08 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit aa969f8522809c67ba7fb324ae29f8d826d29ed1[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Dec 7 19:50:42 2019 +0200
+
+    Lesson 64 disable button
+
+[33mcommit 52a94d9ca303b3e0ac8ff38bdf7585ecca688d66[m
+Merge: dd46bfd 5497bf9
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Dec 5 22:47:10 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 5497bf924b370e03e29acd3476592fc45b23caf0[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Dec 5 22:46:37 2019 +0200
+
+    lesson 63 DAL create api.js
+
+[33mcommit dd46bfdb4272725b2cfda2b1458f4d4e4ad21a4a[m
+Merge: 0fa6827 0c7cab3
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 4 22:22:38 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 0c7cab353f4dd1bf30272520c1a7994a929317c7[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Wed Dec 4 22:22:16 2019 +0200
+
+    lesson 62 follow-unfollow
+
+[33mcommit 0fa68273d5433d6d350bae673ae8fdc5503b79fd[m
+Merge: 8285755 179874b
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Dec 3 22:30:36 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 179874bfe37669f8adaf50824dcbf864859c39fe[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Dec 3 22:30:14 2019 +0200
+
+    lesson 60 login  auth/me
+
+[33mcommit 828575572a2d27e1748a1d603512ac18bada860e[m
+Merge: a7d06bc 932de4d
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 2 21:59:45 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 932de4d616712dfbbfdc8d0ef21d888cf7a24fcc[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Dec 2 21:59:24 2019 +0200
+
+    lesson 60 withRouter
+
+[33mcommit a7d06bc303dd509d9b833f971f332b7e066d1bbe[m
+Merge: d2410d8 8c4749b
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 30 15:30:40 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 8c4749bff7150ac6707370d4e5e1489a3bf218d3[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 30 15:30:23 2019 +0200
+
+    lesson 59 add ProfileInfo
+
+[33mcommit d2410d81c67a6f5df504e15493736c123c34e694[m
+Merge: 8d78174 498f76d
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 28 21:32:55 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 498f76dfe73017d264a16616e9e5aeaee3c070ea[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 28 21:32:28 2019 +0200
+
+    lesson 58 mapDispatchToProps refactor
+
+[33mcommit 8d781746cf4de40aef4341d710f3aba00efcb29f[m
+Merge: 1e4932e b9efc4c
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 28 21:02:25 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit b9efc4c09d52c7b1c906f00956978073a0333ddc[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 28 21:01:58 2019 +0200
+
+    lesson 57 preloader
+
+[33mcommit 1e4932e3f329c3521573c84aeaa03cf48eb3847d[m
+Merge: 9c42125 021a27e
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Nov 26 22:46:19 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 021a27e9a94141f61f189357cb6a06136266d1cc[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Nov 26 22:45:57 2019 +0200
+
+    lesson 56 add second container component
+
+[33mcommit 9c421255d3fbe75b7e18eeb77fd182c174087839[m
+Merge: 716f9cd 0a96669
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Nov 26 21:52:32 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 0a966697934066eac8f1a87d3d37be98e410029b[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Nov 26 21:51:44 2019 +0200
+
+    lesson 55 pagination
+
+[33mcommit 716f9cdb37cc6a671a12d5998cc3fc362f658dfe[m
+Merge: f6c3ff4 cf4431a
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 24 20:46:26 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit cf4431a103be65d8c43f21ac46d6f0d81460c6a8[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 24 20:45:53 2019 +0200
+
+    lesson 53 class component Users
+
+[33mcommit f6c3ff4de9ff91d9af11e1b102b90c8661947d2f[m
+Merge: 0e495e0 052d9f7
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 11 21:26:07 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 052d9f744d8c2392a167559f43d73927f962de20[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 11 21:25:46 2019 +0200
+
+    lesson 51 users API
+
+[33mcommit 0e495e05d5c20adc905ed7fcd2f04d2ad7a5d882[m
+Merge: d19b8fb af89549
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 11 13:06:57 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit af89549db3beb0226bf6fd8e0f12f0d23c3c5d96[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 11 13:06:32 2019 +0200
+
+    lesson 49 add usersPage
+
+[33mcommit d19b8fb6080acdfeca46ac3d7cccdd4f95957792[m
+Merge: 554929d d8bf295
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 10 21:09:45 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit d8bf295086de7d5903c4245450822b549dae2304[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 10 21:09:14 2019 +0200
+
+    lesson 48 refactor redusers
+
+[33mcommit 554929dc23a7f095cccd24a92c13f32d38e8a878[m
+Merge: b95f449 afa054a
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 7 22:54:26 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit afa054a13fc68badafe406bd68ab932c65a70528[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Nov 7 22:54:02 2019 +0200
+
+    lesson 47 fix bugs with copy state
+
+[33mcommit b95f44910a9109c8775279104dd35357bfb03767[m
+Merge: 68b8b28 de7d104
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 4 22:58:09 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit de7d104386a4d436d40f20db73a0e2e70f875d84[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Mon Nov 4 22:57:49 2019 +0200
+
+    lesson 44 context
+
+[33mcommit 68b8b28767e06cc54c1ba93c4eda2a0f49ac5db5[m
+Merge: a3e358f bbef05f
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 23:05:18 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit bbef05f54730f5801ceaae72e832bf082ba2d73a[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 23:04:55 2019 +0200
+
+    lesson 43 container component
+
+[33mcommit a3e358f1323fafd22e5ebe90b51866f26051ab01[m
+Merge: 47531c8 20bbf55
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 17:31:31 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 20bbf55482d6d394b40aef7497b438697691769a[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 17:31:04 2019 +0200
+
+    add redux
+
+[33mcommit 47531c843caa85cf0baf65d7ff710242640b1fda[m
+Merge: b849cad 1697b41
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 12:53:42 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 1697b41d561238722e431d0585acbe3939dd2214[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Nov 3 12:53:12 2019 +0200
+
+    lesson 41 reducer
+
+[33mcommit b849cad9d8d75501047fbb49f4f94605f37649a5[m
+Merge: cb99097 ec3bd15
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 2 12:33:06 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit ec3bd154639336f80a82300c8785a0519ebc2ff0[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 2 12:32:42 2019 +0200
+
+    lesson 39 actionCreator
+
+[33mcommit cb99097299efb9c1353e6fcc407ef79011684820[m
+Merge: e676ae7 f2edc19
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 2 11:47:37 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit f2edc1900d85c7030829153153660625750fe09e[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sat Nov 2 11:46:56 2019 +0200
+
+    lesson 38 - dispatch()
+
+[33mcommit e676ae7544a9cee3269e01b0ebf351e7b96b8e57[m
+Merge: cc79a88 8b0e1fe
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Oct 31 23:06:04 2019 +0200
+
+    Merge branch 'dev' into TEST
+
+[33mcommit 8b0e1fe9839af078461b3504346edc0c6ee472e3[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Oct 31 23:05:26 2019 +0200
+
+    refactoring lesson 37
+
+[33mcommit cc79a88ff062b0696e56be1ff0e4305eda3d7877[m
+Merge: 4528fad c79dc12
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Oct 31 22:08:04 2019 +0200
+
+    Merge branch 'TEST' of github.com:AnatoliyNBulyga/reactSocialProject into TEST
+
+[33mcommit 4528fad8e70ec24f51e850a6a1c3e7d1876bc765[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Thu Oct 31 22:05:15 2019 +0200
+
+    dz lesson 35 complete
+
+[33mcommit c79dc12aeecc896ad04ca26fb03b59fdad6b7467[m
+Merge: 00597e4 13a17dd
+Author: Anatoliy Bulyga <anatoliynbulyga@gmail.com>
+Date:   Tue Oct 29 23:02:28 2019 +0200
+
+    Merge pull request #1 from AnatoliyNBulyga/dev
+    
+    lesson 35 complete
+
+[33mcommit 13a17dd6527c5431e29dd8ee40fb530543f17ddc[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Tue Oct 29 23:00:39 2019 +0200
+
+    lesson 35 complete
+
+[33mcommit 00597e4c70633135ae3996b63cbe38a1fe477d5a[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Oct 27 22:43:24 2019 +0200
+
+    lesson 34 complete
+
+[33mcommit e2562f37a7e5068c8dca1c2e51fdf368a2d56b5e[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Anatoliy <anatoliynbulyga@gmail.com>
+Date:   Sun Oct 27 21:08:05 2019 +0200
+
+    lesson 33

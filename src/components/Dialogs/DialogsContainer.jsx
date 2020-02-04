@@ -1,6 +1,9 @@
-import {addMessageActionCreator, updateMessageActionCreator} from "../../redux/dialogReducer";
+import React from "react";
+import {addMessageActionCreator} from "../../redux/dialogReducer";
 import Dialogs from "./Dialogs";
 import {connect} from "react-redux";
+import {withAuthRedirect} from "../../hoc/withAuthRedirect";
+import {compose} from "redux";
 
 const mapStateToProps = (state) => {
         return {
@@ -10,15 +13,10 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => {
         return {
-                addMessage: () => {
-                        dispatch(addMessageActionCreator());
-                },
-                updateMessage: (text) => {
-                        dispatch(updateMessageActionCreator(text));
+                addMessage: (newMessageBody) => {
+                        dispatch(addMessageActionCreator(newMessageBody));
                 }
         }
 }
 
-const SuperDialogContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogs);
-
-export default SuperDialogContainer;
+export default compose( connect(mapStateToProps, mapDispatchToProps), withAuthRedirect)(Dialogs);
