@@ -1,5 +1,5 @@
-import React, {Suspense, lazy} from 'react';
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import React from 'react';
+import {HashRouter, Route, withRouter} from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import News from "./components/News/News";
@@ -66,11 +66,11 @@ const AppContainer = compose(
 
 const SamuraiJSApp = (props) => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Provider store={store}>
                 <AppContainer  />
             </Provider>
-        </BrowserRouter>
+        </HashRouter>
     )
 
 }
