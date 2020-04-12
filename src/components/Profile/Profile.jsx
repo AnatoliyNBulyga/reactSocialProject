@@ -4,12 +4,14 @@ import s from  './Profile.module.css';
 import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 const Profile = (props) => {
-
    return (
       <div className={s.left_content}>
-         <ProfileInfo profile={props.profile}
+         <ProfileInfo savePhoto={props.savePhoto}
+                      isOwner={props.isOwner}
+                      profile={props.profile}
                       status={props.status}
                       updateStatus={props.updateStatus}
+                      saveProfile={props.saveProfile}
          />
          <MyPostsContainer />
       </div>

@@ -1,9 +1,12 @@
-.selected,
-.pageNubmer:hover {
-    font-weight: bold;
+.paginator {
+    margin: 10px;
 }
 .pageNumber {
-    display: inline-block;
-    padding: 0 3px;
-    cursor: pointer;
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: black;
 }

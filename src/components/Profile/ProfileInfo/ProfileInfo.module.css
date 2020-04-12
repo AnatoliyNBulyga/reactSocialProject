@@ -10,6 +10,19 @@
   vertical-align: top;
   width: 50%;
 }
+.avatar {
+  max-width: 200px;
+}
+.contact {
+  padding-left: 10px;
+}
+.profile_form {
+  padding-top: 15px;
+}
+.button_submit {
+  display: block;
+  margin: 15px 0;
+}
 @media (max-width: 800px) {
   .description_body {
     width: 70%;
